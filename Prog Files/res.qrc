@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>pic1.png</file>
+        <file>background.png</file>
+        <file>style.qss</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>gotham_light.otf</file>
+        <file>gothamcond_black.otf</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,92 @@
+QWidget {
+    background-image: url(:/img/background.png);
+}
+
+QPushButton {
+    background: none;
+    background-color: qlineargradient(spread:pad, x1:0.49218, y1:0, x2:0.519, y2:1, stop:0.00546448 rgba(123, 108, 231, 255), stop:0.491803 rgba(133, 144, 232, 255), stop:1 rgba(160, 195, 255, 255));
+    border-radius: 40px;
+	font-family: 'Gotham Light';
+	font-size: 18px;
+}
+
+QPushButton:pressed {
+    background-color: #4b6d94; 
+}
+
+QPushButton:hover {
+    background-color: #4b6d94; 
+}
+
+QListWidget{
+	background: none;
+    background-color: #a5bbd4;
+	font-family: 'Gotham Light';
+	font-size: 15px;
+}
+
+QListWidget::item::selected{
+	background-color: #5486b3;
+	font-color: white;
+}
+
+QMessageBox {
+	background: none;
+    background-color: #8c86eb;
+    border: 1px solid #1f187a;
+    border-radius: 8px;
+}
+
+QMessageBox QLabel {
+	background: none;
+    background-color: #8c86eb;
+    color: #333;
+	font-size: 15px;
+	font-family: 'Gotham Cond Black	';
+}
+
+QMessageBox QPushButton {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #777;
+}
+
+QLabel#cab_number{
+	font-size: 15px;
+	font-family: 'Gotham Light';
+}
+
+
+QLabel#cab_balance{
+	font-size: 15px;
+	font-family: 'Gotham Light';
+}
+
+QLabel#cab_percent{
+	font-size: 15px;
+	font-family: 'Gotham Light';
+}
+
+QLabel#cab_surname{
+	font-size: 45px;
+	font-family: 'Gotham Cond Black';
+}
+
+
+QLineEdit{
+	background: none;
+	background-color: #bff8ff;
+	border-radius: 10px;
+	
+}
+
+QRadioButton{
+	font-size: 15px;
+	font-family: 'Gotham Light';
+}
